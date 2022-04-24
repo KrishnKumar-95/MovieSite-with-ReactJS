@@ -1,0 +1,46 @@
+.formbox {
+    margin: 10px;
+    border-top: 2px solid #242020;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.elementBox {
+    margin: 1% 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.elementBox input {
+    border: 1px solid rgba(0, 0, 0, 0.699);
+    width: 82%;
+    height: 1.7rem;
+    border-radius: 0.7rem;
+    padding: 1px 2%;
+    font-size: 17px;
+}
+
+.elementBox label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #242020;
+}
+
+.submitBtn {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.submitBtn input {
+    width: 15%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 2.3rem;
+    cursor: pointer;
+}
